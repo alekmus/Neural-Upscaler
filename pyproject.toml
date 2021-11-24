@@ -5,8 +5,9 @@ description = "Upscale images"
 authors = ["Aleksi M"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
 pytest = "^6.2.5"
+matplotlib = "^3.5.0"
 
 [tool.poetry.dev-dependencies]
 
